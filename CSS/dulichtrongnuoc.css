@@ -1,0 +1,557 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+/* CSS top */
+div.top{
+    background-color: #d9d9d9;
+    height: 45px;
+    width: 100%;
+    margin-top: -15px;
+    display: flex;
+}
+div.hotline{
+    width: 70%;
+}
+div.hotline > p{
+    font-size: 15px;
+    padding-left: 20px;
+}
+span.sdt{
+    font-weight: bold;
+    color: red;
+}
+div.topright{
+    width: 30%;
+    display: flex;
+}
+div.search >input{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70%;
+}
+div.search > a> img{
+    width: 8%;
+    margin-bottom: -5px;
+}
+div.dangnhap > a{
+    margin-left: -25px;
+    width: 100%;
+}
+div.dangnhap > a > img{
+    width: 20%;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+/* CSS NAV */
+nav{
+    display: flex;
+    margin-top: 40px;
+}
+div.logo{
+    width: 40%;
+}
+div.menu{
+    width: 60%;
+}
+div.logo >h1{
+    color: #008ae6;
+    padding: 0;
+    margin: 0;
+    margin-top: 9px;
+    margin-left: 170px;
+    font-size: 38px;
+}
+ul.menu{
+    list-style-type: none;
+    display: flex;
+    padding:0;
+    margin-left: 200px;
+}
+ul.menu > li >a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 25px;
+}
+ul.menu > li >a:hover{
+    color: red;
+}
+header{
+    width: 100%;
+}
+header > img{
+    width: 100%;
+}
+/* SUB menu */
+ul.submenu{
+    display: none !important;
+    margin-left: 15px;
+    background-color: white;
+}
+ul.submenu > li{
+    padding: 7px 0;
+    border-bottom: 1px dashed #8c8c8c;
+}
+ul.submenu > li:last-child{
+    border-bottom: none;
+}
+ul.menu > li:hover ul.submenu{
+    display: block !important;
+    position: absolute !important;
+    border: 1px solid #f2f2f2 ;
+}
+/* CSS Header */
+div.noibat{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: -60px;
+}
+div.noibat > figure{
+    width: 20%;
+    text-align: center;
+    margin: 0;
+    margin: 0 1%;
+}
+div.noibat > figure > h4{
+    color:  #ff9900;
+}
+div.noibat > figure > img{
+    width: 85%;
+    height: 120px;
+    padding: 0 2%;
+}
+div.noibat > figure>img:hover{
+    transform: scale(0.88,0.88);
+    transition-duration: 1s;
+}
+/* Thanh tien ich */
+div.tool{
+    height: 213px;
+    width: 40px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+}
+div.tool > div.icon{
+    border: 1px dashed #999999;
+}
+div.tool > div.icon >a> img{
+    width: 100%;
+    padding: 3px 3px;
+}
+div.tool > div.icon >a> img:hover{
+    transform: scale(0.9,0.9);
+    transition-duration: 1s;
+}
+/* CSS section 1 */
+section.section1{
+    width: 80%;
+    margin: 0 auto;
+}
+/* CSS section 2 */
+section.section2{
+    width: 80%;
+    margin: 0 auto;
+}
+section.section2 > p{
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+section.section2 > h4{
+    color: red;
+    background-color: #e6e6e6;
+    padding: 13px 0;
+    text-indent: 10px;
+}
+/* CSS INFO */
+div.info{
+    display: flex;
+}
+div.d-m-y{
+    width: 5%;
+    margin-top: -6px;
+}
+div.ngay{
+    background: #ff3333;
+    margin:0;
+}
+div.m-y{
+    background-color: #ff3333;
+    margin: 0;
+    margin-top: -17px;
+}
+div.m-y > p{
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+div.ngay > h2{
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+div.chuyendi{
+    width: 90%;
+    display: flex;
+    margin-left: 30px;
+    background-color: #e6e6e6;
+    padding: 10px 10px;
+    margin-top: 1%;
+}
+ul.thongtin{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 50px;
+}
+ul.thongtin > li{
+    padding: 7px;
+}
+div.image{
+    width: 30%;
+}
+div.image > a > img{
+    width: 90%;
+    height: 190px;
+}
+div.image > h4{
+    margin: 5px;
+}
+div.thongtin{
+    width: 40%;
+}
+ul.thongtin{
+    width: 100%;
+}
+/* CSS footer */
+footer{
+    background-color: #f1f1f1;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+/* FT LIEN HE */
+div.lienhe{
+    width: 30%;
+}
+ul.footer{
+    padding: 0;
+    list-style-type: none;
+    padding-left: 30px;
+}
+div.lienhe > h4{
+    padding-top: 20px;
+    text-indent: 40px;
+    color: #ff3333;
+}
+ul.footer > li:nth-child(3) > a{
+    color: #66b3ff
+}
+ul.footer > li{
+    padding: 10px 10px;
+}
+ul.footer > li > a{
+    text-decoration: none;
+    color: black;
+}
+ul.footer > li > a:hover{
+    color: red;
+}
+/* FT THONG TIN */
+div.thongtinft{
+    width: 30%;
+}
+div.thongtinft >h4{
+    color:#ff3333 ;
+    text-align: center;
+    padding-top: 20px;
+}
+div.thongtinft > input{
+    padding: 10px;
+    margin-left: 100px;
+    width: 70%;
+    border: 1px solid red;
+}
+div.mangxh{
+    display: flex;
+    margin-left: 130px;
+}
+div.mangxh > a{
+    padding: 0 5px;
+}
+/* FT MID */
+div.ftmid{
+    width: 30%;
+}
+div.ftmid > h4{
+    color: #ff3333;
+    text-align: center;
+    padding-top: 20px;
+}
+ul.ftmid{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 140px;
+}
+ul.ftmid >li{
+    padding: 5px;
+}
+ul.ftmid >li> a{
+    text-decoration: none;
+    color: black;
+}
+ul.ftmid >li> a:hover{
+    color: red;
+}
+h4#ftmid{
+    text-indent: 70px;
+    margin-top: -15px;
+}
+div.ftmid > img{
+    margin-left: 145px;
+}
+/* GO TOP */
+div.gotop{
+    width: 3%;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+div.gotop > a > img{
+    width: 100%;
+}
+@media screen and (max-width:500px){
+     /* TOP */
+     div.hotline{
+        width: 40%;
+    }
+    div.hotline > p{
+        font-size: 10px;
+    }
+    div.topright{
+        width: 60%;
+    }
+    div.search > input{
+        padding: 0;
+    }
+    div.search > a >img{
+        width: 10%;
+        margin-bottom: 0px;
+    }
+    div.dangnhap > a >img{
+        margin-top: 10px;
+    }
+    /* NAV */
+    div.logo  > h1{
+        margin-left: 0;
+        font-size: 22px;
+        margin-left: 60px;
+    }
+    nav{
+        display: block;
+    }
+    ul.menu{
+        padding: 0;
+        margin: 0;
+    }
+    ul.menu > li > a{
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+    /* hết NAV */
+    div.noibat{
+        width: 100%;
+        font-size: 10px;
+        margin-top: -30px;
+    }
+    div.noibat > figure > img{
+        width: 70%;
+        height: 50px;
+    }
+    header > img{
+        width: 100%;
+    }
+    ul.submenu > li > a{
+        padding: 0px 5px;
+    }
+    /* hết header */
+    /* section1 */
+    section.section1{
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 45px;
+    }
+    div.flex{
+        width: 40%;
+        margin: 1% 1%;
+    }
+    div.caption{
+        padding-top: 65px;
+    }
+    div.caption > h3{
+        font-size: 12px;
+    }
+    div.caption > p{
+        font-size: 8px;
+    }
+    /* hết section1 */
+    /* ưu đãi */
+    div.uudai > h1{
+        font-size: 15px;
+    }
+    div.uudai > p{
+        font-size: 13px;
+    }
+    /* section 2 */
+    section.section2{
+        display: block;
+        width: 90%;
+    }
+    div.left{
+        width: 100%;
+    }
+    div.left > img{
+        width: 100%;
+    }
+    div.right1{
+        width: 100%;
+        margin-top: 20px;
+    }
+    div.right2{
+        width: 100%;
+    }
+    div.tool{
+        width: 0%;
+    }
+    /* section 1 */
+    section.section1{
+        width: 80%;
+        margin: 0 auto;
+    }
+    section.section1 > h1{
+        font-size: 15px;
+        text-align: center;
+    }
+    section.section1 > p{
+        font-size: 12px;
+    }
+    /* section 2 */
+    section.section2 > p{
+        font-size: 15px;
+    }
+    section.section2 > h4{
+        font-size: 12px;
+        padding: 7px 0;
+    }
+    /*  */
+    /* Section3 */
+    div.d-m-y{
+        width: 10%;
+        font-size: 12px;
+    }
+    div.m-y{
+        margin-top: -12px;
+    }
+    div.m-y > p{
+        font-size: 8px;
+        margin-left: -2px;
+    }
+    div.chuyendi{
+        flex-wrap: wrap;
+    }
+    div.image{
+        width: 100%;
+    }
+    div.image > a >img{
+        width: 100%;
+    }
+    div.image > h4{
+        font-size: 12px;
+        text-align: center;
+    }
+    div.thongtin{
+        width: 65%;
+    }
+    div.hour{
+        width: 35%;
+    }
+    ul.thongtin{
+        width: 100%;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    /* footer */
+    footer{
+        display: block;
+        font-size: 13px;
+    }
+    div.lienhe{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    div.lienhe > h4{
+        margin: 0;
+        text-indent: 0;
+    }
+    ul.footer{
+        padding: 0;
+    }
+    div.ftmid{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    div.ftmid > h4{
+        text-align: left;
+    }
+    ul.ftmid{
+        margin-left: 0px;
+    }
+    div.ftmid > img{
+        margin: 2px;
+        padding: 0;
+    }
+    h4#ftmid{
+        text-indent: 0;
+    }
+    div.thongtinft{
+        width: 100%;
+    }
+    div.thongtinft > h4{
+        text-align: left;
+    }
+    div.thongtinft > input{
+        margin-left: 0;
+        padding: 8px 0;
+        width: 50%;
+    }
+    div.mangxh{
+        margin: 0;
+    }
+    /* TOOL */
+    div.tool{
+        width: 8%;
+    }
+}
+@media screen and (max-width:900px) and (orientation:landscape){
+    div.logo > h1{
+        margin-left: 0;
+    }
+    ul.menu{
+        margin-left: 0;
+    }
+    div.tool{
+        width: 4%;
+        right: 0;
+        bottom: 50px !important;
+    }
+    div.gotop{
+        right: 40px;
+    }
+}

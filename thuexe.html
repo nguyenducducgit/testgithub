@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mua bán tour trực tuyến hàng đầu</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/thuexe.css" rel="stylesheet"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+        />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="owlcarousel//assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="owlcarousel//assets/owl.carousel.min.css">    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+    </head>
+<body>
+    <!-- JQUERY RIGHT HERE-->
+    <script>
+        $(document).ready(function(){
+                $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:6
+                }
+            }
+                })
+        });
+    </script>
+    
+    <!-- JAVASCRIPT RIGHT HERE -->
+    <script>
+        var index = 1;
+        function changeImage()
+        {
+            var imgs = ["images/Vanchuyen//xe1.jpg","images/Vanchuyen//xe2.jpg","images/Vanchuyen//xe3.jpg","images/Vanchuyen//xe4.jpg","images/Vanchuyen//xe5.jpg" ]
+            document.getElementById('bigcar').src = imgs[index];
+            index++;
+            if(index==5)
+            {
+                index = 0;
+            }
+        }
+        setInterval(changeImage,1200);
+    </script>
+    <!-- TOP -->
+    <div class="top">
+        <div class="hotline">
+            <p>Hotline: <span class="sdt">1900 6666</span></p>
+        </div>
+        <div class="topright">
+            <div class="search">
+                <input type="text" placeholder="tour du lịch, điểm đến"/>
+                <a href="#">
+                    <img src="images/search.svg" alt="search"/>
+                </a>
+            </div>
+            <div class="dangnhap">
+                <a href="dangnhap.html">
+                    <img src="images/dangnhap3.png" alt="dangnhap" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <div class="logo">
+            <h1>Tourhot.com.vn</h1>
+        </div>
+        <div class="menu">
+            <ul class="menu">
+                <li class="sub"><a href="#">Du lịch</a>
+                    <ul class="menu submenu">
+                        <li><a href="dulichtrongnuoc.html">Du lịch trong nước</a></li>
+                        <li><a href="dulichnuocngoai.html">Du lịch ngoài nước</a></li>
+                        <li><a href="dulichtuchon.html">Du lịch tự chọn</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Khách sạn</a></li>
+                <li class="sub"><a href="#">Vận chuyển</a>
+                    <ul class="menu submenu">
+                        <li><a href="thuexe.html" target="_blank">Thuê xe</a></li>
+                        <li><a href="maybay.html" target="_blank">Máy bay</a></li>
+                    </ul>
+                </li>
+                <li class="sub"><a href="#">Tin tức</a>
+                    <ul class="menu submenu">
+                        <li><a href="camnangdulich_thanh.html" target="_blank">Cẩm nang du lịch</a></li>
+                        <li><a href="kinhnghiemdulich_thanh.html" target="_blank">Kinh nghiệm du lịch</a></li>
+                        <li><a href="thongtinvisa.html" target="_blank">Thông tin visa</a></li>
+                    </ul>
+                </li>
+                <li><a href="lienhe.html">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <img src="images/banner.jpg"/>
+        <div class="noibat">
+            <figure>
+                <img src="images/cay.jpg" alt="cay1"/>
+                <figcaption>
+                    TÌM TOUR
+                </figcaption>
+                <h4>TRONG NƯỚC</h4>
+            </figure>
+            <figure>
+                <img src="images/vali.jpg" alt="vali" />
+                <figcaption>
+                    TÌM TOUR
+                </figcaption>
+                <h4>NƯỚC NGOÀI</h4>
+            </figure>
+            <figure>
+                <img src="images/combo.png" alt="combo"/>
+                <figcaption>
+                    COMBO
+                </figcaption>
+                <h4>GIÁ TỐT</h4>
+            </figure>
+
+            <figure>
+                <img src="images/iconmap.png" alt="map">
+                <figcaption>
+                    DU LỊCH
+                </figcaption>
+                <h4>TỰ CHỌN</h4>
+            </figure>
+            <figure>
+                <img src="images/ticket.png" alt="ticket" />
+                <figcaption>
+                    TÌM KIẾM
+                </figcaption>
+                <h4>BOOKING</h4>
+            </figure>
+            <figure>
+                <img src="images/hoivien.png" alt="hoivien" />
+                <figcaption>
+                    HỘI VIÊN
+                </figcaption>
+                <h4>THÂN THIẾT</h4>
+            </figure>
+        </div>
+    </header>
+    <!-- TOOL -->
+    <div class="tool">
+        <div class="icon">
+            <a href="https://www.facebook.com/vietravel/" target="_blank">
+                <img src="images/thanhchon/icfb.png" alt="fb"/>
+            </a>
+        </div>
+        <div class="icon">
+            <a href="https://twitter.com/VietravelGroup" target="_blank">
+                <img src="images/thanhchon/tw.png" alt="twt" />
+            </a>
+        </div>
+        <div class="icon">
+            <a href="https://www.youtube.com/channel/UCY4diIi4ZvrcZIfpLTTM11g" target="_blank">
+                <img src="images/thanhchon/ytube.png" alt="yt"/>
+            </a>
+        </div>
+        <div class="icon">
+            <a href="https://www.instagram.com/vietravel/" target="_blank">
+                <img src="images/thanhchon/ins.jpeg" alt="ins" />
+            </a>
+        </div>
+        <div class="icon">
+            <a href="https://www.facebook.com/vietravel/" target="_blank">
+                <img src="images/thanhchon/ms.png" alt="ms" />
+            </a>
+        </div>
+    </div>
+    <section>
+        <div class="linktrang">
+            <span><a href="home.html">Vận chuyển</a> >> </span>
+            <span><a href="kinhnghiemdulich.html">Thuê xe</a></span>
+        </div>
+        <div class="price">
+            <h1><a href="#"></a><i class="fa fa-list"></i> Bảng giá</a></h1> 
+        </div>
+        <div class="vanchuyen">
+            <div class="whyfull">
+                <div class="imgwhy">
+                    <img src="images/Vanchuyen/why.jpg" alt="why">
+                </div>
+                <div>    
+                    <h1><a href="#">Vì sao chọn Asian Express ?</a></h1>
+                    <ul class="infowhy">
+                        <li><i class="fa fa-mouse-pointer"></i> Đặt xe dễ dàng và nhanh chóng</li>
+                        <li><i class="fa fa-car"></i> Sản phẩm đa dạng, chất lượng</li>
+                        <li><i class="fa fa-usd"></i> Luôn có mức giá tốt nhất</li>
+                        <li><i class="fa fa-tty"></i> Hỗ trợ 24/7</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="whyfull">
+                <div>
+                    <h1><a href="#">Hướng dẫn thuê xe</a></h1>
+                    <ul class="infowhy">
+                        <li><i class="fa fa-phone"></i> Đặt thuê xe trực tiếp qua website</li>
+                        <li><i class="fa fa-home"></i> Ký hợp đồng tại địa chỉ khách hàng</li>
+                        <li><i class="fa fa-fax"></i> Ký hợp đồng qua Fax: (84.8) 3.9487.038</li>
+                        <li><i class="fa fa-envelope"></i> Xác nhận booking thuê xe qua email</li>
+                        <li><i class="fa fa-building"></i> Ký hợp đồng tại văn phòng</li>
+                    </ul>
+                </div>  
+                <div class="cars">
+                    <img id="bigcar" onclick="changeImage()" src="images/Vanchuyen/xe1.jpg" alt="Xe">
+                </div>
+            </div>
+            <div class="whyfull">
+                <div class="imgsp">
+                    <img src="images/Vanchuyen//support.jpg" alt="support">
+                </div>
+                <div>
+                    <h1><a href="#">Dịch vụ hỗ trợ</a></h1>
+                    <ul class="infowhy">
+                        <li><i class="fa fa-hotel"></i> Tư vấn các điểm ăn uống, nhà hàng, khách sạn trong suốt chuyến đi</li>
+                        <li><i class="fa fa-hotel"></i> Hỗ trợ đặt phòng khách sạn toàn quốc</li>
+                        <li><i class="fa fa-hotel"></i> Hỗ trợ đặt vé máy bay trong nước và quốc tế</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div>
+            <h2>-----------------------------  ĐƠN VỊ ĐỒNG HÀNH  -----------------------------</h2>
+        </div>
+        <div id="donghanh">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                     <img src="images/Vanchuyen/Đồng hành/logo_b1.jpg" alt="logo1">
+                </div>
+                <div class="item">
+                    <img src="images/Vanchuyen/Đồng hành/logo_b2.jpg" alt="logo2">
+               </div>
+               <div class="item">
+                     <img src="images/Vanchuyen/Đồng hành/logo_b3.jpg" alt="logo3">
+                </div>
+                <div class="item">
+                    <img src="images/Vanchuyen/Đồng hành/logo_b16.jpg" alt="logo4">
+                </div>
+                <div class="item">
+                    <img src="images/Vanchuyen/Đồng hành/logo_b17.jpg" alt="logo5">
+               </div>
+               <div class="item">
+                    <img src="images/Vanchuyen/Đồng hành/logo_b18.jpg" alt="logo6">
+                </div>
+                <div class="item">
+                    <img src="images/Vanchuyen/Đồng hành/logo_b19.jpg" alt="logo17">
+               </div>
+                <div class="item">
+                    <img src="images/Vanchuyen/Đồng hành/logo_b8.jpg" alt="logo8">
+                </div>
+                <div class="item">
+                    <img src="images/Vanchuyen/Đồng hành/logo_b10.jpg" alt="logo10">
+                </div>
+                <div class="item">
+                    <img src="images/Vanchuyen/Đồng hành/logo_b9.jpg" alt="logo9">
+                </div>
+                <div class="item">
+                    <img src="images/Vanchuyen/Đồng hành/logo_b11.jpg" alt="logo11">
+                </div>
+            </div>
+        </div>
+        <!-- GO TOP -->
+        <div class="gotop">
+            <a href="#top">
+                <img src="images/gotop.png" />
+            </a>
+        </div>
+
+        <footer>
+            <div class="lienhe"> 
+                <h4>THÔNG TIN LIÊN HỆ</h4>
+                <ul class="footer">
+                    <li><i class="fa fa-map-marker"></i><a href="https://www.google.com/maps/place/623+%C4%90i%E1%BB%87n+Bi%C3%AAn+Ph%E1%BB%A7,+Ph%C6%B0%E1%BB%9Dng+1,+Qu%E1%BA%ADn+3,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7693345,106.6735493,17z/data=!3m1!4b1!4m5!3m4!1s0x31752edffbe1a519:0xf3203f7184627e4f!8m2!3d10.7693345!4d106.675738?hl=vi-VN"> 623 Điện Biên Phủ - Phường 1 - Quận 3</a></li>
+                    <li><i class="fa fa-phone"></i><a href="#"> 0356 879 921</a></li>
+                    <li><i class="fa fa-envelope"></i> Email:<a href="mailto:nguyenducduc26797@gmail.com">nguyenducduc26797@gmail.com</a></a></li>
+                    <li><i class="fa fa-facebook-square"></i><a href="https://www.facebook.com/vietravel/"> https://www.facebook.com/tourhot</a></li>
+                </ul>
+            </div>
+            <div class="ftmid">
+                <h4>THÔNG TIN THÊM</h4>
+                <ul class="ftmid">
+                    <li><a href="camnangdulich_thanh.html">Tạp chí du lịch</a></li>
+                    <li><a href="camnangdulich_thanh.html">Cẩm nang du lịch</a></li>
+                    <li><a href="kinhnghiemdulich_thanh.html">Kinh nghiệm du lịch</a></li>
+                </ul>
+                <h4 id="ftmid">CHẤP NHẬN THANH TOÁN</h4>
+                <img src="images/footer//thanhtoan2.png" />
+            </div>
+            <div class="thongtinft">
+                <h4 class="h1">HÃY ĐỂ LẠI EMAIL</h4>
+                <input type="text" placeholder="Email của bạn"/>
+                <h4 class="h2">MẠNG XÃ HỘI</h4>
+                <div class="mangxh">
+                    <a href="https://www.facebook.com/vietravel/" target="_blank"><img src="images/footer/fb.png" alt="facebook"/></a>
+                    <a href="https://www.instagram.com/vietravel/" target="_blank"><img src="images/footer/ins.png" alt="ins" /></a>
+                    <a href="https://twitter.com/VietravelGroup" target="_blank"><img src="images/footer/tw.png" alt="tw" /></a>
+                    <a href="https://www.youtube.com/channel/UCY4diIi4ZvrcZIfpLTTM11g" target="_blank"><img src="images/footer/yt.png" alt="yt"/></a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

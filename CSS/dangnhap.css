@@ -1,0 +1,60 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  width: 100%;
+  background: url(../images/bg.jpg);
+  position: relative;
+  background-repeat: repeat;
+  background-size: cover;
+}
+div.login{
+  width: 280px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 40%;
+}
+div.user{
+  width: 90%;
+  padding: 20px 0;
+}
+div.user > input{
+  width: 90%;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+}
+div.pass{
+  width: 90%;
+  padding: 20px 0;
+}
+div.pass > input{
+  width: 90%;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+}
+div.border{
+  border-bottom: 1px solid #009900;
+}
+div.dangnhap{
+  padding: 20px 0;
+}
+div.dangnhap >  a >input{
+  width: 90%;
+  border: 2px solid #009900;
+  outline: none;
+  background:none;
+  color: white;
+  padding: 10px 0;
+  cursor: pointer;
+}
+div.bordermain{
+  border-bottom: 8px solid #009900;
+  width: 100px;
+}
